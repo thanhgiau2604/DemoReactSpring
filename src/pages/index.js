@@ -1,4 +1,3 @@
-import { animated, useSpring } from '@react-spring/web';
 import DemoUseSpring from '../components/DemoUseSpring';
 import DemoUseSprings from '../components/DemoUseSprings';
 import DemoUseSpringValue from '../components/DemoUseSpringValue';
