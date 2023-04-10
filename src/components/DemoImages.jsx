@@ -23,7 +23,7 @@ const DemoImages = () => {
 				opacity: 0,
 				clipPath: index % 2 === 0 ? 'inset(0 0 100% 0)' : 'inset(100% 0 0 0)',
 			},
-			config: { duration: 800 },
+			config: { duration: 1000 },
 		}),
 		[]
 	);
@@ -65,7 +65,7 @@ const DemoImages = () => {
 				clipPath: clipPathFrom,
 			},
 			to: {
-				opacity: isDisplay ? 1 : 0,
+				opacity: isDisplay ? 1 : progress === 1 ? 0 : 1,
 				clipPath: clipPathTo,
 			},
 		};
