@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import MyComponents from './pages';
 import ScrollingDemo from './pages/ScrollingDemo';
+import Animate from './pages/Animate';
 import DemoImages from './components/DemoImages';
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
 		{
 			path: '/images',
 			element: <DemoImages />,
+		},
+		{
+			path: '/animate',
+			element: <Animate />,
 		},
 	]);
 

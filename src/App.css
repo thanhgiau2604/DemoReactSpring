@@ -37,3 +37,11 @@ img {
   width: 50%;
   height: 100%;
 }
+
+.item {
+  padding: 1rem;
+  margin: 1rem auto;
+  background-color: #efefef;
+  width: 100%;
+  max-width: 500px;
+}
